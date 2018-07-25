@@ -1,7 +1,7 @@
 {
   "name": "@ycjcl868/wordcount",
   "description": "count the words in a string or rich text editor or html. Support for english, Chinese.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "https://github.com/ycjcl868/wordcount",
   "author": "Kylin King (https://github.com/ycjcl868)",
   "repository": {

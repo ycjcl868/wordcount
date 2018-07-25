@@ -4,7 +4,7 @@
 
 ## Install
 
-Install with [npm](https://www.npmjs.com/):
+Install with [npm](https://www.npmjs.com/package/@ycjcl868/wordcount):
 
 ```sh
 $ npm install @ycjcl868/wordcount --save
