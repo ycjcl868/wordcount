@@ -16,7 +16,8 @@ module.exports = function(str) {
   var pureWord = str.replace(/<br\s*\/?>/, '\n')
                     .replace(/<(?:.|\n)*?>/gm, '');
   if (pureWord.length > 0) {
-    return pureWord.match(regex()).length;
+    const match = pureWord.match(regex());
+    return match && match.length || 0;
   }
   return 0;
 };

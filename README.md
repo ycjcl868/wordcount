@@ -23,6 +23,10 @@ wordCount('<p>should 你好 html</p><br /><p>hello</p>')
 //=> 4
 ```
 
+## ChangeLogs
+- v1.0.2 2018.7.31
+
+
 ## About
 
 ### Related projects

@@ -36,4 +36,8 @@ describe('match words', function () {
     assert.strictEqual(wordcount('<p>should 你好 html</p><br /><p>hello</p>'), 4);
   });
 
+  it('should count no word in no content html', function () {
+    assert.strictEqual(wordcount('<p></p><br />'), 0);
+  });
+
 });
